@@ -32,7 +32,7 @@ public class ChromeGridTest {
 		
 		System.out.println(driver.getTitle());
 		
-		
+		driver.manage().window().maximize();
 		
 	}
 
